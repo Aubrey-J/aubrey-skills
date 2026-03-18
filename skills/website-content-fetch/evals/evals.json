@@ -1,0 +1,23 @@
+{
+  "skill_name": "openclaw-website-content-fetch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Fetch content from https://example.com",
+      "expected_output": "Should return the text content of example.com",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Fetch content from a nonexistent domain",
+      "expected_output": "Should throw an error about failed to fetch content",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Fetch content without providing a URL",
+      "expected_output": "Should throw an error about URL being required",
+      "files": []
+    }
+  ]
+}

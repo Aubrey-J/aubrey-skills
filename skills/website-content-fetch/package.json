@@ -1,0 +1,22 @@
+{
+  "name": "website-content-fetch",
+  "version": "1.0.0",
+  "description": "fetching website content",
+  "main": "scripts/fetch-content.js",
+  "scripts": {
+    "test": "node scripts/fetch-content.js"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "website",
+    "content",
+    "fetch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
